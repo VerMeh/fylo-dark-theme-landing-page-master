@@ -127,5 +127,26 @@ body{
             font-family: 'Open Sans';
             font-weight: 400;
         }
+        a{
+            color: hsl(176, 68%, 64%);
+        }
+    }
+}
+
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-column-gap: 20px;
+    width: 80%;
+    justify-content: center;
+    background-image: url(images/bg-quotes.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: hsl(219, 30%, 18%);
     }
 }

@@ -107,7 +107,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 80%;
     height: 100vh;
     .how-image{
         height: auto;
@@ -182,5 +182,55 @@ body{
             }
         }
         
+    }
+}
+
+.early-access{
+    display: flex;
+    flex-direction: column;
+    margin: 20vh auto;
+    width: 50%;
+    background-color: hsl(217, 28%, 15%);
+    border: white;   
+}
+
+.footer{
+    background-color: hsl(216, 53%, 9%);
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding-top: 5%;
+    .logo-footer{
+        height: 20%;
+        width: 20%;
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .address{
+            width: 20%;
+            margin-top: 5%;
+            display: flex;
+            flex-direction: row;
+            img{
+                height: 10%;
+                width: 10%;
+                margin-top: 10%;
+            }
+
+        }
+        .contacts{
+            display: flex;
+            .contact{
+                display: flex;
+                img{
+                    height: 10%;
+                }
+            }
+        }
+        ul{
+            list-style-type: none;
+        }
     }
 }

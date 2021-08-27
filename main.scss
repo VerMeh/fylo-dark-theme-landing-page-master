@@ -188,6 +188,7 @@ body{
 .early-access{
     display: flex;
     flex-direction: column;
+    position: relative;
     margin: 20vh auto;
     width: 50%;
     background-color: hsl(217, 28%, 15%);
@@ -195,6 +196,7 @@ body{
 }
 
 .footer{
+    position: absolute;
     background-color: hsl(216, 53%, 9%);
     display: flex;
     flex-direction: column;

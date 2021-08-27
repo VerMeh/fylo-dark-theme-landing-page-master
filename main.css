@@ -285,13 +285,17 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: absolute;
   margin: 20vh auto;
   width: 50%;
   background-color: #1c2431;
   border: white;
+  z-index: 1;
 }
 
 .footer {
+  z-index: 0;
+  position: relative;
   background-color: #0b1523;
   display: -webkit-box;
   display: -ms-flexbox;
